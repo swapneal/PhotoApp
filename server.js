@@ -29,6 +29,6 @@ app.use('/api/users', users);
 app.use('/api/posts', posts);
 app.use('/api/profile', profile);
 
-const post = 5555;
+const port = 5555;
 
 app.listen(port, () => console.log(`Server running on port ${port}`));
